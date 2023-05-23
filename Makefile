@@ -25,7 +25,7 @@ test-coverage: ## Run tests with coverage
 build: dep ## Build the binary file
 	@go build -a -o build/${PROJECT_NAME} -ldflags "-s -w" -ldflags "-X '${VERSION_PATH}.GIT_BRANCH=${BUILD_BRANCH}' -X '${VERSION_PATH}.GIT_COMMIT=${BUILD_COMMIT}' -X '${VERSION_PATH}.BUILD_TIME=${BUILD_TIME}' -X '${VERSION_PATH}.GO_VERSION=${BUILD_GO_VERSION}' -X '${VERSION_PATH}.GIT_TAG=${BUILD_TAG}'" ${MAIN_FILE}
 
-gen: # Generate code
+gen: build # Generate code
 	@protoc -I=. -I=/usr/local/include --go_out=. --go_opt=module=${PKG} pb/*/*.proto
 	@protoc-go-inject-tag -input=pb/*/*.pb.go
 	@build/phoenix generate enum -p -m pb/*/*.pb.go
