@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
-const (
-	// ServiceName 服务名称
-	ServiceName = "mcube-demo"
-)
+// const (
+// 	// ServiceName 服务名称
+// 	ServiceName = "{{.Name}}"
+// )
 
 var (
 	GIT_TAG    string
