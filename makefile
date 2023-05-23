@@ -2,6 +2,7 @@
 PROJECT_NAME = "phoenix"
 MAIN_FILE := "cmd/phoenix/main.go"
 PKG = "github.com/CloudWeOps/${PROJECT_NAME}"
+PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/ | grep -v redis | grep -v broker | grep -v etcd | grep -v examples)
 
 # build version
 BUILD_TAG := ${shell git tag}
