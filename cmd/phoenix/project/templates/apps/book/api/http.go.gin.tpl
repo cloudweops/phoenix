@@ -20,7 +20,7 @@ type handler struct {
 
 func (h *handler) Config() error {
 	h.log = zap.L().Named(book.AppName)
-	h.service = app.GetGrpcApp(book.AppName).(book.ServiceServer)
+	h.service = app.GetGRPCApp(book.AppName).(book.ServiceServer)
 	return nil
 }
 

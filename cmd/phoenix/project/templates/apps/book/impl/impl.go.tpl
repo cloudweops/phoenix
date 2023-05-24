@@ -64,5 +64,5 @@ func (s *service) Registry(server *grpc.Server) {
 }
 
 func init() {
-	app.RegistryGrpcApp(svr)
+	app.RegistryGRPCApp(svr)
 }
