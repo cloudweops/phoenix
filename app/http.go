@@ -45,7 +45,7 @@ func GetHttpApp(name string) HTTPApp {
 	return app
 }
 
-// LoadHttpApp 装载所有的http app
+// LoadHttpApp 装载所有的 http app
 func LoadHttpApp(pathPrefix string, root router.Router) {
 	for _, api := range httpApps {
 		if pathPrefix != "" && !strings.HasPrefix(pathPrefix, "/") {

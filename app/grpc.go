@@ -42,7 +42,7 @@ func GetGRPCApp(name string) GRPCApp {
 	return app
 }
 
-// LoadGrpcApp 加载所有的Grpc app
+// LoadGrpcApp 加载所有的 Grpc app
 func LoadGrpcApp(server *grpc.Server) {
 	for _, app := range grpcApps {
 		app.Registry(server)

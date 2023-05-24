@@ -14,7 +14,7 @@ var (
 	restfulApps = map[string]RESTfulApp{}
 )
 
-// HTTPService Http服务的实例
+// RESTfulApp RESTful 服务的实例
 type RESTfulApp interface {
 	InternalApp
 	Registry(*restful.WebService)

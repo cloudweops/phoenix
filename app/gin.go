@@ -12,7 +12,7 @@ var (
 	ginApps = map[string]GinApp{}
 )
 
-// HTTPService Http服务的实例
+// GinApp Gin 服务的实例
 type GinApp interface {
 	InternalApp
 	Registry(gin.IRouter)
@@ -47,7 +47,7 @@ func GetGinApp(name string) GinApp {
 	return app
 }
 
-// LoadGinApp 装载所有的gin app
+// LoadGinApp 装载所有的 gin app
 func LoadGinApp(pathPrefix string, root gin.IRouter) {
 	for _, api := range ginApps {
 		if pathPrefix != "" && !strings.HasPrefix(pathPrefix, "/") {
