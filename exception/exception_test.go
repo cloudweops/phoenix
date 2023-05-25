@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/exception"
+	"github.com/cloudweops/phoenix/exception"
 )
 
 func TestNewNotFound(t *testing.T) {

@@ -3,7 +3,7 @@ package router
 import (
 	"net/http"
 
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 )
 
 // Auther 设置受保护路由使用的认证器

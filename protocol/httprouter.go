@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/conf"
-	"github.com/CloudWeOps/phoenix/http/middleware/accesslog"
-	"github.com/CloudWeOps/phoenix/http/middleware/cors"
-	"github.com/CloudWeOps/phoenix/http/middleware/recovery"
-	"github.com/CloudWeOps/phoenix/http/router"
-	"github.com/CloudWeOps/phoenix/http/router/httprouter"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/conf"
+	"github.com/cloudweops/phoenix/http/middleware/accesslog"
+	"github.com/cloudweops/phoenix/http/middleware/cors"
+	"github.com/cloudweops/phoenix/http/middleware/recovery"
+	"github.com/cloudweops/phoenix/http/router"
+	"github.com/cloudweops/phoenix/http/router/httprouter"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 )
 
 // NewHTTPService 构建函数

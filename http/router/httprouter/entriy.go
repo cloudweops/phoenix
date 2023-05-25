@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 )
 
 // Entry 路由条目

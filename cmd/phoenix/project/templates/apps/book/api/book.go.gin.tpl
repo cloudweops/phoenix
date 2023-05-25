@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/CloudWeOps/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/response"
 
 	"{{.PKG}}/apps/book"
 )

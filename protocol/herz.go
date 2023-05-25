@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/conf"
-	"github.com/CloudWeOps/phoenix/logger"
 	"github.com/cloudwego/hertz/pkg/route"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/conf"
+	"github.com/cloudweops/phoenix/logger"
 )
 
 // HertzHTTPService hertz 服务

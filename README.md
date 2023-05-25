@@ -6,5 +6,5 @@
 ## 安装 Phoenix cli 命令
 
 ```
-go install github.com/CloudWeOps/phoenix/cmd/phoenix@latest
+go install github.com/cloudweops/phoenix/cmd/phoenix@latest
 ```

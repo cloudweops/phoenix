@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/cache"
 	"github.com/bluele/gcache"
+	"github.com/cloudweops/phoenix/cache"
 )
 
 // NewCache new an redis cache instance

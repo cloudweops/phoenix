@@ -3,7 +3,7 @@ package defaultvalue_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/tools/defaultvalue"
+	"github.com/cloudweops/phoenix/tools/defaultvalue"
 	"github.com/stretchr/testify/assert"
 )
 

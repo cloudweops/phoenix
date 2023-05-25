@@ -13,8 +13,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/CloudWeOps/phoenix/cache/memory"
-	"github.com/CloudWeOps/phoenix/cache/redis"
+	"github.com/cloudweops/phoenix/cache/memory"
+	"github.com/cloudweops/phoenix/cache/redis"
 )
 
 var (

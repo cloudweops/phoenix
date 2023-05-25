@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/http/request"
+	"github.com/cloudweops/phoenix/http/request"
 )
 
 var (

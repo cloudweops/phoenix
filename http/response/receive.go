@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/CloudWeOps/phoenix/exception"
+	"github.com/cloudweops/phoenix/exception"
 )
 
 // GetDataFromBody 获取body中的数据

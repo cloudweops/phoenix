@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/CloudWeOps/phoenix/file"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/file"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 )
 
 const logMessage = "Test file rotator.\n"

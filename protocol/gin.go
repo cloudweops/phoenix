@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/conf"
-	"github.com/CloudWeOps/phoenix/http/middleware/cors"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/conf"
+	"github.com/cloudweops/phoenix/http/middleware/cors"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 	"github.com/gin-gonic/gin"
 )
 

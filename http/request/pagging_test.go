@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/request"
+	"github.com/cloudweops/phoenix/http/request"
 	"github.com/stretchr/testify/assert"
 )
 

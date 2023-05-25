@@ -12,8 +12,8 @@ import (
 {{- end }}
 
 {{ if $.EnableCache -}}
-	"github.com/CloudWeOps/phoenix/cache/memory"
-	"github.com/CloudWeOps/phoenix/cache/redis"
+	"github.com/cloudweops/phoenix/cache/memory"
+	"github.com/cloudweops/phoenix/cache/redis"
 {{- end }}
 
 {{ if $.EnableMongoDB -}}

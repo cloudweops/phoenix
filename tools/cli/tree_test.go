@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/CloudWeOps/phoenix/tools/cli"
+	"github.com/cloudweops/phoenix/tools/cli"
 )
 
 const testFullResult = `├───dir1

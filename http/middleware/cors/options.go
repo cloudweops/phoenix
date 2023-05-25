@@ -3,7 +3,7 @@ package cors
 import (
 	"net/http"
 
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger"
 )
 
 // Options is a configuration container to setup the CORS middleware.

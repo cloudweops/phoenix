@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/sqlbuilder"
+	"github.com/cloudweops/phoenix/sqlbuilder"
 	"github.com/stretchr/testify/assert"
 )
 

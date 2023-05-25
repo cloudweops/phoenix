@@ -3,11 +3,11 @@ package protocol
 import (
 	"net"
 
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/conf"
-	"github.com/CloudWeOps/phoenix/grpc/middleware/recovery"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/conf"
+	"github.com/cloudweops/phoenix/grpc/middleware/recovery"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 
 	"google.golang.org/grpc"
 )

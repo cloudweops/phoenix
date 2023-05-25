@@ -3,7 +3,7 @@ package label_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/label"
+	"github.com/cloudweops/phoenix/http/label"
 	"github.com/stretchr/testify/assert"
 )
 

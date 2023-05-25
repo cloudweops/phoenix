@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/file"
+	"github.com/cloudweops/phoenix/file"
 	"github.com/stretchr/testify/assert"
 )
 

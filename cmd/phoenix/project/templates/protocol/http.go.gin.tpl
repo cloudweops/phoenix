@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/http/middleware/cors"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/http/middleware/cors"
 
 	"{{.PKG}}/conf"
 )

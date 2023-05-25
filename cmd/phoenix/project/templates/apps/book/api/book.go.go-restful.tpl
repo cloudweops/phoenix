@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/emicklei/go-restful/v3"
-	"github.com/CloudWeOps/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/response"
 
 	"{{.PKG}}/apps/book"
 )

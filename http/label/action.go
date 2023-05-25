@@ -1,6 +1,6 @@
 package label
 
-import "github.com/CloudWeOps/phoenix/pb/http"
+import "github.com/cloudweops/phoenix/pb/http"
 
 const (
 	// Action key name

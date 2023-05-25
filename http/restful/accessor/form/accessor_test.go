@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/restful/accessor/form"
+	"github.com/cloudweops/phoenix/http/restful/accessor/form"
 	"github.com/emicklei/go-restful/v3"
 )
 

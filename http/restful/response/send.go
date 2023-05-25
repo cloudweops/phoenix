@@ -3,9 +3,9 @@ package response
 import (
 	"net/http"
 
-	"github.com/CloudWeOps/phoenix/exception"
-	"github.com/CloudWeOps/phoenix/http/response"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/exception"
+	"github.com/cloudweops/phoenix/http/response"
+	"github.com/cloudweops/phoenix/logger/zap"
 	"github.com/emicklei/go-restful/v3"
 )
 

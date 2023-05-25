@@ -6,10 +6,10 @@ import (
 	"database/sql"
 {{- end }}
 
-	"github.com/CloudWeOps/phoenix/exception"
-	"github.com/CloudWeOps/phoenix/pb/request"
+	"github.com/cloudweops/phoenix/exception"
+	"github.com/cloudweops/phoenix/pb/request"
 {{ if $.EnableMySQL -}}
-	"github.com/CloudWeOps/phoenix/sqlbuilder"
+	"github.com/cloudweops/phoenix/sqlbuilder"
 {{- end }}
 
 	"{{.PKG}}/apps/book"

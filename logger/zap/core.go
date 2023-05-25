@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/CloudWeOps/phoenix/file"
-	"github.com/CloudWeOps/phoenix/path"
+	"github.com/cloudweops/phoenix/file"
+	"github.com/cloudweops/phoenix/path"
 
 	"github.com/pkg/errors"
 	"go.uber.org/zap"

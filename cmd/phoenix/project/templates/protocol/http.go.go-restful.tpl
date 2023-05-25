@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/emicklei/go-restful/v3"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 	restfulspec "github.com/emicklei/go-restful-openapi/v2"
-	"github.com/CloudWeOps/phoenix/app"
+	"github.com/cloudweops/phoenix/app"
 
 	"{{.PKG}}/conf"
 	"{{.PKG}}/swagger"

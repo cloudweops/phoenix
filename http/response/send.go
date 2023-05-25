@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/CloudWeOps/phoenix/exception"
+	"github.com/cloudweops/phoenix/exception"
 )
 
 // Failed use to response error messge

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/response"
 	"github.com/stretchr/testify/require"
 )
 

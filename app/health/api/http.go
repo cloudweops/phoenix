@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/app/health"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/app/health"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 	"github.com/emicklei/go-restful/v3"
 
 	restfulspec "github.com/emicklei/go-restful-openapi/v2"

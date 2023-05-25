@@ -7,10 +7,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/CloudWeOps/phoenix/exception"
-	"github.com/CloudWeOps/phoenix/http/response"
-	"github.com/CloudWeOps/phoenix/http/router"
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/exception"
+	"github.com/cloudweops/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/router"
+	"github.com/cloudweops/phoenix/logger"
 )
 
 const recoveryExplanation = "Something went wrong"

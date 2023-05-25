@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/types/bytes"
+	"github.com/cloudweops/phoenix/types/bytes"
 )
 
 var (

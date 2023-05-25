@@ -8,8 +8,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/http/response"
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/http/response"
+	"github.com/cloudweops/phoenix/logger"
 )
 
 // LoggerEntry is the structure passed to the template.

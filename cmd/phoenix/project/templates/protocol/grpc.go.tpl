@@ -6,10 +6,10 @@ import (
 	"google.golang.org/grpc"
 
 
-	"github.com/CloudWeOps/phoenix/app"
-	"github.com/CloudWeOps/phoenix/grpc/middleware/recovery"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/app"
+	"github.com/cloudweops/phoenix/grpc/middleware/recovery"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 
 	"{{.PKG}}/conf"
 )

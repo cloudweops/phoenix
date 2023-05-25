@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/CloudWeOps/phoenix/cmd/phoenix/cmd/generate"
-	"github.com/CloudWeOps/phoenix/cmd/phoenix/cmd/project"
-	"github.com/CloudWeOps/phoenix/cmd/phoenix/cmd/protobuf"
-	"github.com/CloudWeOps/phoenix/version"
+	"github.com/cloudweops/phoenix/cmd/phoenix/cmd/generate"
+	"github.com/cloudweops/phoenix/cmd/phoenix/cmd/project"
+	"github.com/cloudweops/phoenix/cmd/phoenix/cmd/protobuf"
+	"github.com/cloudweops/phoenix/version"
 	"github.com/spf13/cobra"
 )
 

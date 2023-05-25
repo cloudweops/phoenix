@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger"
 	"github.com/pkg/errors"
 )
 

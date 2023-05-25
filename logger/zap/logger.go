@@ -3,7 +3,7 @@ package zap
 import (
 	"fmt"
 
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

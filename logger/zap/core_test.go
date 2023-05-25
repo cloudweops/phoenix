@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 	"github.com/stretchr/testify/assert"
 )
 

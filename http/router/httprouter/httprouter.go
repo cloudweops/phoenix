@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/CloudWeOps/phoenix/http/context"
-	"github.com/CloudWeOps/phoenix/http/response"
-	"github.com/CloudWeOps/phoenix/http/router"
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/http/context"
+	"github.com/cloudweops/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/router"
+	"github.com/cloudweops/phoenix/logger"
 
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 	"github.com/julienschmidt/httprouter"
 )
 

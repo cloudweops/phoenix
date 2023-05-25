@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CloudWeOps/phoenix/http/router"
+	"github.com/cloudweops/phoenix/http/router"
 )
 
 var (

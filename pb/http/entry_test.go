@@ -3,8 +3,8 @@ package http_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/label"
-	"github.com/CloudWeOps/phoenix/pb/http"
+	"github.com/cloudweops/phoenix/http/label"
+	"github.com/cloudweops/phoenix/pb/http"
 	"github.com/stretchr/testify/assert"
 )
 

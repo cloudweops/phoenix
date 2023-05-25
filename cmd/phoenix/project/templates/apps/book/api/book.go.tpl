@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/CloudWeOps/phoenix/http/context"
-	"github.com/CloudWeOps/phoenix/http/request"
-	"github.com/CloudWeOps/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/context"
+	"github.com/cloudweops/phoenix/http/request"
+	"github.com/cloudweops/phoenix/http/response"
 
 	"{{.PKG}}/apps/book"
 )

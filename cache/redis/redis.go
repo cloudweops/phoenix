@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/CloudWeOps/phoenix/cache"
-	"github.com/CloudWeOps/phoenix/tracer/tredis"
+	"github.com/cloudweops/phoenix/cache"
+	"github.com/cloudweops/phoenix/tracer/tredis"
 	"github.com/go-redis/redis"
 )
 

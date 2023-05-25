@@ -7,10 +7,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/middleware/accesslog"
-	"github.com/CloudWeOps/phoenix/http/router"
-	"github.com/CloudWeOps/phoenix/http/router/httprouter"
-	"github.com/CloudWeOps/phoenix/logger/mock"
+	"github.com/cloudweops/phoenix/http/middleware/accesslog"
+	"github.com/cloudweops/phoenix/http/router"
+	"github.com/cloudweops/phoenix/http/router/httprouter"
+	"github.com/cloudweops/phoenix/logger/mock"
 
 	"github.com/stretchr/testify/require"
 )

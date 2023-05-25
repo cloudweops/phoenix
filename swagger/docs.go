@@ -1,7 +1,7 @@
 package swagger
 
 import (
-	"github.com/CloudWeOps/phoenix/version"
+	"github.com/cloudweops/phoenix/version"
 	"github.com/go-openapi/spec"
 )
 

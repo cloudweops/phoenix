@@ -3,8 +3,8 @@ package redis_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/cache"
-	"github.com/CloudWeOps/phoenix/cache/redis"
+	"github.com/cloudweops/phoenix/cache"
+	"github.com/cloudweops/phoenix/cache/redis"
 
 	"github.com/stretchr/testify/require"
 )

@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/CloudWeOps/phoenix/app/health"
-	"github.com/CloudWeOps/phoenix/http/response"
+	"github.com/cloudweops/phoenix/app/health"
+	"github.com/cloudweops/phoenix/http/response"
 	"github.com/emicklei/go-restful/v3"
 )
 

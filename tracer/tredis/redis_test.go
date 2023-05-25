@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/tracer/tredis"
 	"github.com/alicebob/miniredis"
+	"github.com/cloudweops/phoenix/tracer/tredis"
 	"github.com/go-redis/redis"
 
 	"github.com/opentracing/opentracing-go"

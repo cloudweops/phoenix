@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/router"
+	"github.com/cloudweops/phoenix/http/router"
 	"github.com/stretchr/testify/require"
 )
 

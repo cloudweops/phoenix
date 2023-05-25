@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/CloudWeOps/phoenix/exception"
-	"github.com/CloudWeOps/phoenix/http/router"
+	"github.com/cloudweops/phoenix/exception"
+	"github.com/cloudweops/phoenix/http/router"
 
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 )
 
 var (

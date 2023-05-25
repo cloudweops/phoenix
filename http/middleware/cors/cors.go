@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger"
 )
 
 // Cors interface

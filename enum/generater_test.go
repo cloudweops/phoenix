@@ -3,7 +3,7 @@ package enum_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/enum"
+	"github.com/cloudweops/phoenix/enum"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/middleware/recovery"
-	"github.com/CloudWeOps/phoenix/http/router/httprouter"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/http/middleware/recovery"
+	"github.com/cloudweops/phoenix/http/router/httprouter"
+	"github.com/cloudweops/phoenix/logger/zap"
 
 	"github.com/stretchr/testify/require"
 )

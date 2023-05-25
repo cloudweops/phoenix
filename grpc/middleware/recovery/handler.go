@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/CloudWeOps/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger"
 	"go.uber.org/zap"
 )
 

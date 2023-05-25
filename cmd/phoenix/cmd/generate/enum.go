@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/CloudWeOps/phoenix/cmd/phoenix/enum"
+	"github.com/cloudweops/phoenix/cmd/phoenix/enum"
 	"github.com/spf13/cobra"
 )
 

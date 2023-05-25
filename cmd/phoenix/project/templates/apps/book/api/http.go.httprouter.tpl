@@ -1,13 +1,13 @@
 package api
 
 import (
-	"github.com/CloudWeOps/phoenix/http/label"
-	"github.com/CloudWeOps/phoenix/http/router"
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/http/label"
+	"github.com/cloudweops/phoenix/http/router"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 
 	"{{.PKG}}/apps/book"
-	"github.com/CloudWeOps/phoenix/app"
+	"github.com/cloudweops/phoenix/app"
 )
 
 var (

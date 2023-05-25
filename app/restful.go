@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CloudWeOps/phoenix/http/restful/accessor/form"
-	"github.com/CloudWeOps/phoenix/http/restful/accessor/yaml"
-	"github.com/CloudWeOps/phoenix/http/restful/accessor/yamlk8s"
+	"github.com/cloudweops/phoenix/http/restful/accessor/form"
+	"github.com/cloudweops/phoenix/http/restful/accessor/yaml"
+	"github.com/cloudweops/phoenix/http/restful/accessor/yamlk8s"
 	"github.com/emicklei/go-restful/v3"
 )
 

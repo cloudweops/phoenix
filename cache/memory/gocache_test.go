@@ -3,8 +3,8 @@ package memory_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/cache"
-	"github.com/CloudWeOps/phoenix/cache/memory"
+	"github.com/cloudweops/phoenix/cache"
+	"github.com/cloudweops/phoenix/cache/memory"
 	"github.com/stretchr/testify/require"
 )
 

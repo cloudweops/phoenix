@@ -13,7 +13,7 @@ import (
 	"text/template"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/CloudWeOps/phoenix/tools/cli"
+	"github.com/cloudweops/phoenix/tools/cli"
 	"github.com/pkg/errors"
 
 	"gopkg.in/yaml.v3"

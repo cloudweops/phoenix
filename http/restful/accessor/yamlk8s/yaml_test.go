@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/restful/accessor/yamlk8s"
+	"github.com/cloudweops/phoenix/http/restful/accessor/yamlk8s"
 	"github.com/emicklei/go-restful/v3"
 )
 

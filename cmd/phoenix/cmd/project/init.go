@@ -3,7 +3,7 @@ package project
 import (
 	"fmt"
 
-	"github.com/CloudWeOps/phoenix/cmd/phoenix/project"
+	"github.com/cloudweops/phoenix/cmd/phoenix/project"
 	"github.com/spf13/cobra"
 
 	"github.com/AlecAivazis/survey/v2/terminal"

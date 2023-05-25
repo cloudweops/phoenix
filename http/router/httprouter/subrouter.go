@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/CloudWeOps/phoenix/http/router"
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	"github.com/cloudweops/phoenix/http/router"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 )
 
 func newSubRouter(basePath string, root *httpRouter) *subRouter {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/middleware/cors"
+	"github.com/cloudweops/phoenix/http/middleware/cors"
 )
 
 var testHandler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

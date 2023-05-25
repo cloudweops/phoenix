@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 	"github.com/julienschmidt/httprouter"
 )
 

@@ -3,7 +3,7 @@ package project_test
 import (
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/cmd/phoenix/project"
+	"github.com/cloudweops/phoenix/cmd/phoenix/project"
 	"github.com/stretchr/testify/assert"
 )
 

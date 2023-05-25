@@ -5,14 +5,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/exception"
-	"github.com/CloudWeOps/phoenix/http/context"
-	"github.com/CloudWeOps/phoenix/http/label"
-	"github.com/CloudWeOps/phoenix/http/mock"
-	"github.com/CloudWeOps/phoenix/http/response"
-	"github.com/CloudWeOps/phoenix/http/router/httprouter"
+	"github.com/cloudweops/phoenix/exception"
+	"github.com/cloudweops/phoenix/http/context"
+	"github.com/cloudweops/phoenix/http/label"
+	"github.com/cloudweops/phoenix/http/mock"
+	"github.com/cloudweops/phoenix/http/response"
+	"github.com/cloudweops/phoenix/http/router/httprouter"
 
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 	"github.com/stretchr/testify/assert"
 )
 

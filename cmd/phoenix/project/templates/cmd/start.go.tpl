@@ -9,14 +9,14 @@ import (
 	"syscall"
 
 	"github.com/spf13/cobra"
-	"github.com/CloudWeOps/phoenix/app"
+	"github.com/cloudweops/phoenix/app"
 {{ if $.EnableCache -}}
-	"github.com/CloudWeOps/phoenix/cache"
-	"github.com/CloudWeOps/phoenix/cache/memory"
-	"github.com/CloudWeOps/phoenix/cache/redis"
+	"github.com/cloudweops/phoenix/cache"
+	"github.com/cloudweops/phoenix/cache/memory"
+	"github.com/cloudweops/phoenix/cache/redis"
 {{- end }}
-	"github.com/CloudWeOps/phoenix/logger"
-	"github.com/CloudWeOps/phoenix/logger/zap"
+	"github.com/cloudweops/phoenix/logger"
+	"github.com/cloudweops/phoenix/logger/zap"
 
 	"{{.PKG}}/conf"
 	"{{.PKG}}/protocol"

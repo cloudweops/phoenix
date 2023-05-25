@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CloudWeOps/phoenix/http/router"
-	"github.com/CloudWeOps/phoenix/http/router/httprouter"
-	httppb "github.com/CloudWeOps/phoenix/pb/http"
+	"github.com/cloudweops/phoenix/http/router"
+	"github.com/cloudweops/phoenix/http/router/httprouter"
+	httppb "github.com/cloudweops/phoenix/pb/http"
 	"github.com/stretchr/testify/assert"
 )
 
