@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package CloudWeOps.phoenix.http;
+package cloudweops.phoenix.http;
 
 option go_package = "github.com/cloudweops/phoenix/pb/http";
 option java_package = "com.google.protobuf";

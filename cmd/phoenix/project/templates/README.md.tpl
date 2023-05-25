@@ -74,7 +74,7 @@ help                           Display this help screen
 $ make -pv /usr/local/include/github.com/cloudweops/phoenix/pb
 
 # 找到最新的phoenix protobuf文件
-$ ls `go env GOPATH`/pkg/mod/github.com/CloudWeOps/
+$ ls `go env GOPATH`/pkg/mod/github.com/cloudweops/
 
 # 复制到/usr/local/include
 $ cp -rf pb  /usr/local/include/github.com/cloudweops/phoenix/pb

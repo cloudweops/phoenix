@@ -1,6 +1,6 @@
 module github.com/cloudweops/phoenix
 
-go 1.20
+go 1.18
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6
@@ -8,7 +8,7 @@ require (
 	github.com/alicebob/miniredis v2.5.0+incompatible
 	github.com/bluele/gcache v0.0.2
 	github.com/caarlos0/env/v6 v6.10.1
-	github.com/cloudwego/hertz v0.6.3
+	github.com/cloudwego/hertz v0.6.4
 	github.com/emicklei/go-restful-openapi/v2 v2.9.1
 	github.com/emicklei/go-restful/v3 v3.10.2
 	github.com/gin-gonic/gin v1.9.0

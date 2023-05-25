@@ -38,7 +38,7 @@ func LoadConfigFromCLI() (*Project, error) {
 	err := survey.AskOne(
 		&survey.Input{
 			Message: "请输入项目包名称:",
-			Default: "github.com/CloudWeOps/demo",
+			Default: "github.com/cloudweops/demo",
 		},
 		&p.PKG,
 		survey.WithValidator(survey.Required),
@@ -79,6 +79,12 @@ func LoadConfigFromCLI() (*Project, error) {
 		p.EnableMongoDB = true
 		p.LoadMongoDBConfig()
 	}
+
+	// 选择是否开启缓存
+	enabledCache := &survey.Confirm{
+		Message: "是否开启缓存",
+	}
+	survey.AskOne(enabledCache, &p.EnableCache)
 
 	// 选择是否生成样例
 	genExample := &survey.Confirm{

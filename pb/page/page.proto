@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package CloudWeOps.phoenix.page;
+package cloudweops.phoenix.page;
 option go_package = "github.com/cloudweops/phoenix/http/request";
 
 message PageRequest {
