@@ -1,6 +1,6 @@
 # base
 PROJECT_NAME = "phoenix"
-MAIN_FILE := "cmd/phoenix/main.go"
+MAIN_FILE := "cmd/main.go"
 PKG = "github.com/cloudweops/${PROJECT_NAME}"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/ | grep -v redis | grep -v broker | grep -v etcd | grep -v examples)
 
@@ -28,5 +28,5 @@ build: dep ## Build the binary file
 gen: build # Generate code
 	@protoc -I=. -I=/usr/local/include --go_out=. --go_opt=module=${PKG} pb/*/*.proto
 	@protoc-go-inject-tag -input=pb/*/*.pb.go
-	@build/phoenix generate enum -p -m pb/*/*.pb.go
+	@build/phoenix enum -p -m pb/*/*.pb.go
 
