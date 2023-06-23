@@ -22,6 +22,12 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.3
 	go.mongodb.org/mongo-driver v1.11.6
+	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.42.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.42.0
+	go.opentelemetry.io/otel v1.16.0
+	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.16.0
+	go.opentelemetry.io/otel/sdk v1.16.0
+	go.opentelemetry.io/otel/trace v1.16.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/sys v0.8.0
 	google.golang.org/grpc v1.55.0
@@ -38,8 +44,11 @@ require (
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/cloudwego/netpoll v0.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/go-logr/logr v1.2.4 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
@@ -82,6 +91,7 @@ require (
 	github.com/xdg-go/stringprep v1.0.3 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
 	github.com/yuin/gopher-lua v1.1.0 // indirect
+	go.opentelemetry.io/otel/metric v1.16.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
